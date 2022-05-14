@@ -149,9 +149,9 @@ function SortingVisualizer() {
    
     
     <div className="array-container">
-       <div className='button-class' style={{}}>
+       <div className='button-class'>
     <Button variant="contained" disabled={dis} onClick={insertionSort}>insertion-sort</Button>
-    <Button variant="contained"style={{marginLeft:"20px"}} disabled={dis} onClick={SelectionSort}>selection-sort</Button>
+    <Button variant="contained"style={{marginLeft:"20px",}} disabled={dis} onClick={SelectionSort}>selection-sort</Button>
     <Button variant="contained"style={{marginLeft:"20px"}} disabled={dis} onClick={Bubble}>bubble-sort</Button>
     <Button variant="contained"style={{marginLeft:"20px"}} onClick={Resetarray}>Reset</Button>
 
